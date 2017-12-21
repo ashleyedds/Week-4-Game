@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+body {
+    background-image: url("imgs/images.jpg");
+    font-family: 'Domine', serif; 
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.71);
+    margin-bottom: 30px;
+    font-size: 75px;
+    text-align: center;
+}
+
+.instructions {
+    background-color: rgba(255, 255, 255, 0.71);
+    float: left;
+    max-width: 50%;
+    padding: 15px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.instructions p {
+    margin: 10px;
+}
+
+.targetBucket {
+    background-color: rgba(255, 255, 255, 0.71);
+    clear: both;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.scoreBucket {
+    background-color: rgba(255, 255, 255, 0.71);
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#playerScore {
+    background-color: rgba(255, 255, 255, 0.71);
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#crystals {
+    clear: both;
+}
+
+#resultImage {
+    float: right;
+    position: relative;
+    bottom: 460px;
+    right: 300px;
+    height: 300px;
+    width: 300px;
+}
+
+#gem1 {
+    height: 175px;
+    width: 250px;
+}
+
+#gem2, #gem3, #gem4 {
+    height: 200px;
+    width: 200px;
+}
